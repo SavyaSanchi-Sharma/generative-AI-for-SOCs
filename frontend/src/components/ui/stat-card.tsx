@@ -58,10 +58,8 @@ export function GlassCard({ children, className }: { children: ReactNode; classN
       whileHover={{ borderColor: 'var(--primary)' }}
       className={cn('glass-card p-5 relative overflow-hidden transition-colors duration-300', className)}
     >
-      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent opacity-0 hover:opacity-100 transition-opacity" />
-      <div className="relative z-10">
-        {children}
-      </div>
+      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent opacity-0 hover:opacity-100 transition-opacity z-0 pointer-events-none" />
+      {children}
     </motion.div>
   );
 }

@@ -19,10 +19,10 @@ const paths = [
 
 export function AttackGraph() {
   return (
-    <GlassCard className="relative h-[300px] w-full overflow-hidden p-0 border border-border/50">
-      <div className="absolute top-4 left-4 z-20 flex items-center gap-2 bg-background/80 backdrop-blur-sm px-3 py-1.5 rounded-md border border-white/5">
+    <GlassCard className="relative h-full min-h-[350px] w-full overflow-hidden p-0 border border-border/50">
+      <div className="absolute top-4 left-4 z-20 flex items-center gap-2 bg-background/80 backdrop-blur-sm px-3 py-1.5 rounded-md border border-white/5 shadow-sm">
         <AlertCircle className="w-4 h-4 text-destructive animate-pulse" />
-        <h3 className="text-xs font-semibold font-mono uppercase tracking-widest text-foreground glitch-text" data-text="Active Attack Vector">Active Attack Vector</h3>
+        <h3 className="text-xs font-semibold font-mono uppercase tracking-widest text-destructive drop-shadow-sm">Active Attack Vector</h3>
       </div>
       
       {/* Network background grid - Cyberpunk style */}
