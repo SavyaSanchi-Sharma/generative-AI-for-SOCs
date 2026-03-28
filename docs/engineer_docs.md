@@ -11,3 +11,8 @@ while true; do echo "192.168.1.1 GET /login?id=1" >> logs/web/access.log; sleep 
 ``` bash 
 while true; do   echo "Failed password from 192.168.1.5" >> logs/system/auth.log;
 ```
+# Agents 
+## god
+defines the structure of every agent 
+## logAgent 
+an extractor from the events 

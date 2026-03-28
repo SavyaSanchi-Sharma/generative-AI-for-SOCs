@@ -3,3 +3,4 @@ research
 .vscode
 .yml
 __pycache__/
+.env

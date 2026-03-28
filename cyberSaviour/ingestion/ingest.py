@@ -1,5 +1,5 @@
-from live import logCapture 
-from parse import LogNorm
+from ingestion.live import logCapture 
+from ingestion.parse import LogNorm
 import threading
 from queue import Queue
 
