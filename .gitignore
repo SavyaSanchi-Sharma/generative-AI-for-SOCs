@@ -2,4 +2,4 @@ research
 .node_modules
 .vscode
 .yml
-/__pycache__/*
+__pycache__/
